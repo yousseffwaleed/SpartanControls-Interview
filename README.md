@@ -1,4 +1,3 @@
-# SpartanControls-Interview
 
 # ⚙️ Industrial IoT Data Pipeline with AWS (Edge → Cloud → Analytics)
 
@@ -26,9 +25,9 @@ This project mirrors that workflow at lab scale:
 +------------------+        +---------------------+        +----------------------+
 |  Raspberry Pi (Edge) | --> |  AWS IoT Core (MQTT) | --> |  Kinesis Firehose → S3 |
 |------------------|        |---------------------|        |----------------------|
-| DHT11 Sensor      |        | Topics:              |        | GZIP JSON → Athena SQL |
+| DHT11 Sensor      |        | Topics:              |      | GZIP JSON → Athena SQL |
 | read_dht11.py     |        |  sensors/raw         |        +----------------------+
-| models_and_processor.py → sensors/clean            |
+| models_and_processor.py →    sensors/clean        |
 +----------------------------------------------------+
                         ↓
                  +--------------------+
