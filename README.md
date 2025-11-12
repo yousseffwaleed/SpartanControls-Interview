@@ -22,7 +22,7 @@ This project mirrors that workflow at lab scale:
 ## 🧩 Architecture Overview
         ┌────────────────────┐
         │  DHT11 Sensor      │
-        │ (Temperature, Hum) │
+        (Temperature,Humidity)
         └────────┬───────────┘
                  │
                  ▼
