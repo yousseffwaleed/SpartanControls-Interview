@@ -21,4 +21,7 @@ LOCATION 's3://<YOUR_BUCKET>/<YOUR_PREFIX>/'
 
 -
 -- Sample query: Get last 100 readings
-SELECT * FROM iot_db.sensors_v ORDER BY ts_utc DESC LIMIT 100;
+SELECT ts_utc, temperature_c, humidity_pct
+FROM iot_db.sensors_v
+ORDER BY ts_utc DESC
+LIMIT 100;
